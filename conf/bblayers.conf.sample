@@ -14,5 +14,5 @@ BBLAYERS ?= " \
     ${HOME}/poky-pyro/meta-openembedded/meta-python \
     ${HOME}/poky-pyro/meta-qt5 \
     ${HOME}/poky-pyro/meta-raspberrypi \
-    ${HOME}/rpi/meta-rpi \
+    ${HOME}/rpi/meta-droneOS \
   "

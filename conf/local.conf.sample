@@ -1,4 +1,4 @@
-# Local configuration for meta-rpi images
+# Local configuration for meta-droneOS images
 # Yocto Project 2.3 Poky distribution [pyro] branch
 # This is a sysvinit system
 
