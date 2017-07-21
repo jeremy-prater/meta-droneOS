@@ -6,13 +6,23 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
+    ${TOPDIR}/../sources/poky/meta \
+    ${TOPDIR}/../sources/poky/meta-poky \
     ${TOPDIR}/../sources/meta-droneOS \
     ${TOPDIR}/../sources/meta-nodejs \
     ${TOPDIR}/../sources/meta-nodejs-contrib \
-    ${TOPDIR}/../sources/meta-openembedded \
+    ${TOPDIR}/../sources/meta-openembedded/meta-oe \
+    ${TOPDIR}/../sources/meta-openembedded/meta-filesystems \
+    ${TOPDIR}/../sources/meta-openembedded/meta-multimedia \
+    ${TOPDIR}/../sources/meta-openembedded/meta-networking \
+    ${TOPDIR}/../sources/meta-openembedded/meta-python \
     ${TOPDIR}/../sources/meta-qt5 \
     ${TOPDIR}/../sources/meta-qt5-extra \
     ${TOPDIR}/../sources/meta-raspberrypi \
     ${TOPDIR}/../sources/meta-swupdate \
     ${TOPDIR}/../sources/poky \
+  "
+BBLAYERS_NON_REMOVABLE ?= " \
+    ${TOPDIR}/../sources/poky/meta \
+    ${TOPDIR}/../sources/poky/meta-poky \
   "
