@@ -20,7 +20,6 @@ BBLAYERS ?= " \
     ${TOPDIR}/../sources/meta-qt5-extra \
     ${TOPDIR}/../sources/meta-raspberrypi \
     ${TOPDIR}/../sources/meta-swupdate \
-    ${TOPDIR}/../sources/poky \
   "
 BBLAYERS_NON_REMOVABLE ?= " \
     ${TOPDIR}/../sources/poky/meta \
