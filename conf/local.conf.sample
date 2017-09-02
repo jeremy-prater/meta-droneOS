@@ -4,15 +4,15 @@
 
 LICENSE_FLAGS_WHITELIST = "commercial"
 
-DISTRO_FEATURES = "ext2 pam opengl usbhost ${DISTRO_FEATURES_LIBC}"
+DISTRO_FEATURES = "ext2 pam opengl usbhost systemd ${DISTRO_FEATURES_LIBC}"
 
-DISTRO_FEATURES_BACKFILL_CONSIDERED += "pulseaudio"
+DISTRO_FEATURES_BACKFILL_CONSIDERED += "pulseaudio systemd"
 
 PREFERRED_PROVIDER_jpeg = "libjpeg-turbo"
 PREFERRED_PROVIDER_jpeg-native = "libjpeg-turbo-native"
 
 PREFERRED_PROVIDER_udev = "eudev"
-VIRTUAL-RUNTIME_init_manager = "sysvinit"
+VIRTUAL-RUNTIME_init_manager = "systemd"
 
 MACHINE_FEATURES_remove = "apm"
 
@@ -22,9 +22,9 @@ PREFERRED_VERSION_linux-raspberrypi = "4.9.%"
 
 MACHINE = "raspberrypi2"
 
-#DL_DIR = "${HOME}/oe-sources"
+DL_DIR = "/work/downloads"
 
-#SSTATE_DIR = "/oe4/rpi/sstate-cache"
+SSTATE_DIR = "/work/sstate-cache"
 
 #TMPDIR = "/oe4/rpi/tmp-pyro"
 
