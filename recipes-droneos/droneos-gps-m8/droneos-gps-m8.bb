@@ -9,6 +9,7 @@ inherit qmake5_paths
 DEPENDS = " \
     qtbase \
     qtlocation \
+    qtserialport \
 "
 
 RDEPENDS_${PN} += " \

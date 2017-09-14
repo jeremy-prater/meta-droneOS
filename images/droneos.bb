@@ -35,6 +35,7 @@ QT5_PKGS = " \
     qtserialbus \
     qtserialbus-dev \
     qtserialbus-mkspecs \
+    qtserialport \
     qtsvg \
     qtsvg-dev \
     qtsvg-mkspecs \
@@ -57,6 +58,8 @@ DEBUG_APPS = " \
     tmux \
     vim \
     opkg \
+    screen \
+    sudo \
 "
 
 IMAGE_INSTALL += " \

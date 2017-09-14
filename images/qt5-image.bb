@@ -35,6 +35,7 @@ QT5_PKGS = " \
     qtserialbus \
     qtserialbus-dev \
     qtserialbus-mkspecs \
+    qtserialport \
     qtsvg \
     qtsvg-dev \
     qtsvg-mkspecs \
