@@ -52,4 +52,4 @@ do_install_append(){
 ###############################################################################
 
 inherit externalsrc
-EXTERNALSRC = "/home/jeremy/src/gps-m8"
+EXTERNALSRC = "/home/jeremy/src/droneOS-gps-m8"
