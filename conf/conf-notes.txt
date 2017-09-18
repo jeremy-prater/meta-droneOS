@@ -4,4 +4,5 @@ Some custom targets are
     console-image
     qt5-image
     qt5-basic-image
+    droneos
 
