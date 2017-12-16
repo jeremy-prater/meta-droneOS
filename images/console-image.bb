@@ -18,7 +18,7 @@ CORE_OS = " \
 WIFI_SUPPORT = " \
     crda \
     iw \
-    linux-firmware-brcm43430 \
+    linux-firmware-bcm43430 \
     linux-firmware-ralink \
     linux-firmware-rtl8192ce \
     linux-firmware-rtl8192cu \
@@ -69,9 +69,11 @@ EXTRA_TOOLS_INSTALL = " \
     ethtool \
     fbset \
     findutils \
+    firewall \
     i2c-tools \
     iperf3 \
     iproute2 \
+    iptables \
     less \
     memtester \
     nano \

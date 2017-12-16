@@ -1,6 +1,7 @@
-LINUX_VERSION = "4.9.38"
+LINUX_VERSION = "4.9.56"
+LINUX_VERSION_EXTENSION = "-jumpnow"
 
-SRCREV = "ee4397ad0b0e3723b507c76ed31d2a3c3646db09"
+SRCREV = "b017e4f94b17ac322340159f63c546e8d115b104"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/linux-raspberrypi-4.9:"
 
@@ -9,7 +10,7 @@ SRC_URI = " \
     file://defconfig \
 "
 
-PR = "r40"
+PR = "r57"
 
 KERNEL_DEVICETREE = " \
     bcm2708-rpi-0-w.dtb \
@@ -83,6 +84,7 @@ KERNEL_DEVICETREE = " \
     overlays/mmc.dtbo \
     overlays/mpu6050.dtbo \
     overlays/mz61581.dtbo \
+    overlays/papirus.dtbo \
     overlays/pi3-act-led.dtbo \
     overlays/pi3-disable-bt.dtbo \
     overlays/pi3-disable-wifi.dtbo \
